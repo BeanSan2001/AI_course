@@ -1,0 +1,5 @@
+ai_agent/.env.local
+uv.lock
+ai_agent/.venv
+pyproject.toml
+.env.local

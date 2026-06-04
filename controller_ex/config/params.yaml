@@ -1,0 +1,43 @@
+control_robot:
+  ros__parameters:
+    max_lin_vel: 2.0 # (m/s)
+    max_ang_vel: 0.8 # (rad/s)
+    kp: 1.0
+    kd: 0.2
+    #back_Dis: 1.7 # (meter)
+    #side_Dis: 1.4 # (meter)
+    cmd_vel: 'cmd_vel'
+    goal: 'goal_point'
+    relative: '/move_base_simple/humanToRobot'
+    robotPos: '/move_base_simple/robot'
+    humanPos: '/move_base_simple/human'
+    base_scan_frame: 'base_scan'
+    base_link_frame: 'base_link'
+    laser_max_dis: 6.0
+    coff_static_obstacle: 0.0
+    obstacle_safe_dis: 0.45 # (meter)
+    # coff_dynamic_obstacle: 0.0
+    # walker_safe_dis: 2.0 # (meter)
+    coff_cost_dis: 70.0
+    coff_cost_ang: 65.0
+    coff_cost_vel: 0.2
+    coff_cost_omega: 0.2
+    path_sample_num: 100
+
+LocalPlanning:
+  ros__parameters:
+    human_frame_id: 'human_tracked'
+    base_link_frame: 'base_link'
+    max_lin_vel: 1.0 # (m/s)
+    max_ang_vel: 0.8 # (rad/s)
+    back_Dis: 1.7 # (meter)
+    side_Dis: 1.4 # (meter)
+    # cmd_vel: 'cmd_vel'
+    goal: 'goal_point'
+    map_resolution: 0.15
+    laser_max_dis: 5.0
+    # coff_static_obstacle: 0.0
+    # obstacle_safe_dis: 0.45 # (meter)
+    # coff_cost_dis: 70.0
+    # coff_cost_ang: 65.0
+    # path_sample_num: 100
