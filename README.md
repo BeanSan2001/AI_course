@@ -89,7 +89,7 @@ cd ~/AI_course
 rosdep install --from-paths src --ignore-src -r -y
 colcon build --symlink-install
 echo "source ~/AI_course/install/setup.bash" >> ~/.bashrc
-cd ~/AI_course/src/exhibition
+cd ~/AI_course/src
 pip3 install python-can
 ```
 
