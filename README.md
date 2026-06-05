@@ -1,4 +1,4 @@
-# Multimodal Interaction and Following for Human-Robot Companionship with Large Language Models
+#  Human-Following Robot
 
 These packages were developed by [Thanh](https://sites.google.com/view/vuthanhcdt/home) from the [Networked Robotic Systems Laboratory](https://sites.google.com/site/yenchenliuncku). If you use any packages from this repository, please cite this repository and our team.
 
