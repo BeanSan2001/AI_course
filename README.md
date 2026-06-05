@@ -116,6 +116,7 @@ Launch experiment nodes:
 ```bash
 # Experiment environment(MID360,scout_base,optimal_point,cost_map)
 ros2 launch scout_simulation robot_experiment.launch.py
+ros2 launch scout_base scout_mini_omni_base.launch.py publish_tf:=false
 
 # Lidar
 ros2 launch livox_ros_driver2 msg_MID360_launch.py
